@@ -79,6 +79,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .profile {
+  width: 78px;
   margin-bottom: 15px;
   border-radius: 50%;
 }
@@ -211,7 +212,10 @@ p {
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #545E6C;
+}
+.main-wrapper .experiences-section .item .details{
+  width: 500px;
 }
 .main-wrapper .project-title {
   font-size: 14px;
