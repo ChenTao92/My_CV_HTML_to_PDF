@@ -189,6 +189,34 @@ p {
 .main-wrapper .section {
   margin-bottom: 30px;
 }
+.main-wrapper .work-section .item{
+  margin-bottom: 10px;
+  display: flex;
+}
+.main-wrapper .work-section .item .item-icon img {
+  width: 50px;
+  height: 50px;
+}
+.main-wrapper .work-section .item .item-content {
+  padding-left: 20px;
+}
+.main-wrapper .work-section .item .item-content .company-name {
+    color: #191C23;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-wrapper .work-section .item .item-content .work-summary {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+.main-wrapper .work-section .item .item-content .work-details {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
 .main-wrapper .experiences-section .item {
   margin-bottom: 15px;
 }
@@ -201,7 +229,7 @@ p {
   color: #3F4650;
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   font-weight: 300;
 }
 .main-wrapper .time {
